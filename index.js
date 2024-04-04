@@ -16,7 +16,7 @@ function foo(data1) {
             <div class="card-body text-primary">
                 <h5 class="card-title">${data1[i].capital}</h5>
                 <p class="card-text">${data1[i].region}</p>
-                <img src="${data1[i].flag}" class="card-img-top">
+                <img src="${data1[i].flags.png}" class="card-img-top">
                 <p class="card-text">Population: ${data1[i].population}</p>
             </div>
         </div>`;
